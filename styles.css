@@ -92,7 +92,29 @@ body{
 	
 }
 
+.masthead{
+	position: relative;
+}
 .masthead img{
-
 	width: 100%;
+	filter: brightness(70%);
+}
+
+.masthead article{
+	color: azure;
+	position: absolute;
+	padding: 15px;
+	bottom: 50px;
+	left: 50px;
+	background-color: rgba(0, 0, 0, 0.328);
+}
+
+.masthead article p {
+	font-weight: var(--fontLight);
+	margin-bottom: 15px;
+}
+
+.masthead article h2 {
+	font-size: 20px;
+	font-weight: var(--fontBold);
 }
