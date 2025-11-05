@@ -123,7 +123,8 @@ body{
 .masthead article button {
 	display: flex;
 	padding: 10px;
-	color: rgb(185, 185, 185);
+	
+	color: rgb(255, 255, 255);
 	background-color: rgb(241, 86, 112);
 	border-radius: 30px;
 	border: none;
