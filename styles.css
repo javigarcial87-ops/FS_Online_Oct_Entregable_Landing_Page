@@ -117,4 +117,22 @@ body{
 .masthead article h2 {
 	font-size: 20px;
 	font-weight: var(--fontBold);
+	margin-bottom: 16px;
+}
+
+.masthead article button {
+	display: flex;
+	padding: 10px;
+	color: rgb(185, 185, 185);
+	background-color: rgb(241, 86, 112);
+	border-radius: 30px;
+	border: none;
+	font-weight: var(--fontBold);
+}
+
+@media (max-width:768px) {
+
+	.masthead article {
+		position: static;
+	}
 }
