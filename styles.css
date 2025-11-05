@@ -133,6 +133,6 @@ body{
 @media (max-width:768px) {
 		.masthead article {
 		position: static;
-		background-color: black;
+		background-color:rgb(141, 57, 57);
 	}
 }
