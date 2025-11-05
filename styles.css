@@ -131,8 +131,8 @@ body{
 }
 
 @media (max-width:768px) {
-
-	.masthead article {
+		.masthead article {
 		position: static;
+		background-color: black;
 	}
 }
