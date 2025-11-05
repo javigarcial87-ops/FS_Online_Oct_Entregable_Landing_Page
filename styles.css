@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 :root{
 	--mainColor: #009d95;
+	--fontLight:300;
+	--fontRegular:400;
+	--fontBold:700;
 }
 
 
@@ -52,6 +54,12 @@ table {
 
 /* //MIS CSS// */
 
+body{
+	font-family: "Lato", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
 
 .mainHeader{
 	display: flex;
@@ -62,7 +70,7 @@ table {
 }
 
 .logo img{
-	width: 150px;
+	width: 180px;
 }
 
 .lang{
@@ -84,3 +92,7 @@ table {
 	
 }
 
+.masthead img{
+
+	width: 100%;
+}
